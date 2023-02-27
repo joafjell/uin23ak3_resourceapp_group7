@@ -12,16 +12,17 @@ export default function Main(){
 
         </article>
         
-        <article id="css">
+        <article id= "css">
         <h3>CSS</h3>
         <div id="linkk">
-        <a target="_blank" href="https://w3schools.com/css/">
+        <a target="_blank" href="https://w3schools.com/css/"> 
         W3Schools</a>
-        <a target="_blank" href="https://www.w3.org/standards/webdesign/htmlcss.html">
+        <a target="_blank" href="https://www.w3.org/standards/webdesign/htmlcss.html"> 
         W3C HTML and CSS standards</a>
-        <a target="_blank" href="https://jigsaw.w3.org/css-validator/">
+        <a target="_blank" href="https://jigsaw.w3.org/css-validator/"> 
         W3C CSS validator</a>
-        <a target="_blank" href="https://css-tricks.com/">CSS tricks</a>
+        <a target="_blank" href="https://css-tricks.com/"> 
+        CSS tricks</a>
         </article>
     )
 }
