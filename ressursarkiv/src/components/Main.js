@@ -12,7 +12,7 @@ export default function Main(){
 
         </article>
         
-        <article id= "css">
+        <article>
         <h3>CSS</h3>
         <div id="linkk">
         <a target="_blank" href="https://w3schools.com/css/"> 
