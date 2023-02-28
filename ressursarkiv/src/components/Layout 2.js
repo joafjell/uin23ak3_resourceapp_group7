@@ -4,10 +4,8 @@ import Header from "./Header";
 export default function Layout(){
     return(
         <div id="container">
-            <header>   
-                <Path to='/'>
-                    <Header />
-                </Link>
+            <header>
+                <Header/>
             </header>
             <main>
                 <Outlet/>
