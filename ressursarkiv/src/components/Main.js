@@ -23,6 +23,44 @@ export default function Main(){
         W3C CSS validator</a>
         <a target="_blank" href="https://css-tricks.com/"> 
         CSS tricks</a>
+        </div>
         </article>
+        
+        <article>
+        <h3>Javascript</h3>
+        <div id="linkkk">
+        <a target="_blank" href="https://www.w3schools.com/js/">
+        W3Schools</a>
+        <a target="_blank" href="https://www.developer.mozilla.org/en-US/docs/Web/JavaScript">
+        MDN Web Docs</a>
+        <a target="_blank" href="https://www.youtube.com/watch?v=O3iR-CIufKM">
+        How to read Javascript documentation</a>
+        </div>
+        </article>
+        
+        <article>
+        <h3>React</h3>
+        <div id="linkkkk">
+        <a target="_blank" href="https://reactjs.org/docs/getting-started.html">
+        React documentation</a>
+        <a target="_blank" href="https://www.w3schools.com/REACT/DEFAULT.ASP">
+        W3Schools</a>
+        <a target="_blank" href="https://www.youtube.com/watch?v=O3iR-CIufKM">
+        How to read Javascript Documentation</a>
+        </div>
+        </article>
+        
+        <article>
+        <h3>Sanity and headless CMS</h3>
+        <div id="linkkkkk">
+        <a target"_blank" href="https://www.sanity.io/docs">
+        Sanity Documentation</a>
+        <a target="_blank" href="https://www.oncrawl.com/technical-seo/beginners-guide-headless-cms/">
+        OnCrawl: a beginners guide to headless CMS</a>
+        <a target="_blank" href="https://www.section.io/egineering-education/getting-started-with-sanity-cms/">
+        Getting started wIth Sanity CMS</a>
+        </div>
+        </article>
+        
     )
 }
