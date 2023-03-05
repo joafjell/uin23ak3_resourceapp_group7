@@ -2,11 +2,11 @@ export default function Nav(){
     return (
         <div>
         <ul className="navBtns">
-        <li><link to="">Kategori_1</link></li>
-        <li><link to="">Kategori_2</link></li>
-        <li><link to="">Kategori_3</link></li>
-        <li><link to="">Kategori_4</link></li>
-        <li><link to="">Kategori_5</link></li>
+        <li><Link to="">Kategori_1</Link></li>
+        <li><Link to="">Kategori_2</Link></li>
+        <li><Link to="">Kategori_3</Link></li>
+        <li><Link to="">Kategori_4</Link></li>
+        <li><Link to="">Kategori_5</Link></li>
         </ul>
         </div>
         
