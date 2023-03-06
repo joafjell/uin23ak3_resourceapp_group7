@@ -5,8 +5,8 @@ export default function Layout(){
     return(
         <div id="container">
             <header>   
-                <Path to='/'>
-                    <Header />
+                <Link to='/'>
+                    <Header/>
                 </Link>
             </header>
             <main>
