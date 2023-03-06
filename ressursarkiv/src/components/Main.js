@@ -1,4 +1,33 @@
-export default function Main(){
+
+//write by Giang
+export default function MainContent(props) {
+  const { resources, currentTitle } = props;
+
+  // render inhold hver tabs
+  const renderTabDetail = () => {
+    const filterArr = resources.filter((item) => {
+      return item.category.toUpperCase() === currentTitle.toUpperCase();
+    });
+
+    return filterArr.map((item, index) => {
+      return (
+        <a key={index} target="_blank" href={item.url}>
+          {item.title}
+        </a>
+      );
+    });
+  };
+
+  return (
+    <section id="content">
+      <h3>{currentTitle.toUpperCase()}</h3>
+
+      <div id="link">{renderTabDetail()}</div>
+    </section>
+  );
+}
+
+/*export default function Main(){
     return (
         <article id= "content">
         <h3>HTML</h3>
@@ -63,4 +92,4 @@ export default function Main(){
         </article>
         
     )
-}
+}*/
