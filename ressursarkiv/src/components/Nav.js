@@ -1,21 +1,19 @@
-export default function Nav(){
+export const Navbarr = () => {
     return (
         <div>
-        <ul className="navBtns">
-        <li><Link to="">Kategori_1</Link></li>
-        <li><Link to="">Kategori_2</Link></li>
-        <li><Link to="">Kategori_3</Link></li>
-        <li><Link to="">Kategori_4</Link></li>
-        <li><Link to="">Kategori_5</Link></li>
-        </ul>
+        <Link to=""> HTML </Link>
+        <Link to=""> CSS </Link>
+        <Link to=""> Javascript </Link>
+        <Link to=""> React </Link>
+        <Link to=""> Sanity </Link>
         </div>
         
         
         
-        )
-}
+        );
+};
 
-export default Nav;
+
 /* write by Giang
 export default function NavBar(props) {
   // render tab title
