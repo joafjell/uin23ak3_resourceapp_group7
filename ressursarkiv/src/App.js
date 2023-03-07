@@ -6,8 +6,7 @@ import './css/main.css';
 function App() {
     return(
         <Routes>
-            <Route path='/' element={<Layout/>}>
-            </Route>
+            <Layout/>       
         </Routes>
     );
 }

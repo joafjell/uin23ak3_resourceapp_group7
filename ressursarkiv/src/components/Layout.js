@@ -6,7 +6,7 @@ export default function Layout(){
         <div id="container">
             <header>   
                 <Link to='/'>
-                    <Header/>
+                    <Header />
                 </Link>
             </header>
             <main>
