@@ -1,11 +1,11 @@
 export const Navbarr = () => {
     return (
         <div>
-        <Link to=""> HTML </Link>
-        <Link to=""> CSS </Link>
-        <Link to=""> Javascript </Link>
-        <Link to=""> React </Link>
-        <Link to=""> Sanity </Link>
+        <Link to="/html"> HTML </Link>
+        <Link to="/css"> CSS </Link>
+        <Link to="/javascript"> Javascript </Link>
+        <Link to="/react"> React </Link>
+        <Link to="/sanity"> Sanity </Link>
         </div>
         
         
