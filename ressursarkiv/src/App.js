@@ -87,23 +87,6 @@ function App(props) {
   const [currentTitleState, setCurrentTitleState] = useState("html");
   return (
     
-   /* <div className="navigation">
-    <Router>
-    <Navbarr />
-    <Routes>
-    <Route path="/" element={<Home />} />
-    <Route path="/html" element={<HTML />} />
-    <Route path="/css" element={<CSS />} />
-    <Route path="/javascript" element={<Javascript />} />
-    <Route path="/react" element={<React />} />
-    <Route path="/sanity" element={<Sanity />} />
-    </Routes>
-    </Router>
-    </div> 
-    */
-    
-    
-    
     <div className="body">
       {/* <Tabs_UI /> */}
       <Header />
