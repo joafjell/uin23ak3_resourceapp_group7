@@ -8,7 +8,7 @@ import { CSS } from "./";
 import { Javascript } from "./";
 import { React } from "./";
 import { Sanity } from "./";
-import { Navbarr } from "./components/Nav";*/
+import { Navbarr } from "./components/Navbarr";*/
 
 
 
