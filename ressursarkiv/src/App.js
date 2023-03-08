@@ -11,7 +11,7 @@ function App() {
   return (  
         <Routes>
           <Route index element={<Header />} />
-          <Route path=':title' element={<Main recipes={resources} />}/>
+          <Route path=':html' element={<Main recipes={resources} />}/>
         </Routes>
       );
 }
