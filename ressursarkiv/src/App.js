@@ -8,7 +8,7 @@ import { Css } from ".components/Css";
 import { Javascript } from ".components/Javascript";
 import { React } from ".components/React";
 import { Sanity } from ".components/Sanity";
-import { Navbarr } from "./components/Navbarr";
+import { Navbarr } from "./components/Nav";
 
 
 
@@ -18,7 +18,7 @@ function App() {
         
            <div className="navigation">
     <Router>
-    <Navbarr />
+    <Nav />
     <Routes>
     /*<Route path="/" element={<Home />} />*/
     <Route path="/html" element={<Html />} />
