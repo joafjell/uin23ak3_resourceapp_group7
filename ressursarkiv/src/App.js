@@ -3,9 +3,33 @@ import './App.css';
 import Main from './components/Main';
 import Nav from './components/Nav';
 import Header from './components/Header';
+import Information from './components/Information';
+import { Route, Routes } from 'react-router-dom';
+import { useState } from 'react';
+import Layout from './components/Layout';
+import Test from './components/Test';
+import Test2 from './components/Test2';
+
+function App() {
+
+    return(
+        <>
+            <Nav />
+            <Routes>
+                <Route index path="/html" element={<Test />} />
+                <Route index path="/css" element={<Test2 />} />
+            </Routes>
+        </>
+        
+      
+      
+    )
+    
+}
 
 
-const resources = [
+
+/*const resources = [
   {
       title: "W3Schools",
       url: "https://www.w3schools.com/html/",
@@ -81,15 +105,17 @@ const resources = [
       url: "https://www.section.io/engineering-education/getting-started-with-sanity-cms/",
       category: "headless-cms"
   }
-];
+];/*
 
-function App(props) {
+
+
+/*function App(props) {
   const [currentTitleState, setCurrentTitleState] = useState("html");
   return (
     
     <div className="body">
-      {/* <Tabs_UI /> */}
-      <Header />
+      {/* <Tabs_UI /> }*/
+     /*<Header />
       <main id="main_content">
         <NavBar
           resources={resources}
@@ -105,6 +131,6 @@ function App(props) {
       </main>
     </div>
   );
-}
+}*/
 
 export default App;

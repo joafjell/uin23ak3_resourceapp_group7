@@ -1,5 +1,26 @@
+//import resources from Ressurser.js
+import { Link } from 'react-router-dom';
+//import Information from './Information';
+import resources from './Ressurser';
+
 export default function Nav(){
-    return (
+  const list = []
+  resources.forEach(item => list.push(item.category))
+  const filterList = [...new Set(list)]
+  return (
+    <nav>
+      <ul className="uin-informasjon">
+       {filterList.map((item, index) => (
+        <li id={index} key={index}>
+          <Link to={`/${item}`}>{item}</Link>
+        </li>
+        ))}
+      </ul>
+      </nav> 
+      );  
+    }
+  
+  /*return (
         <div>
         <Link to="/"> Home </Link>
         <Link to="/html"> HTML </Link>
@@ -12,11 +33,11 @@ export default function Nav(){
         
         
         );
-};
+};*/
 
 
-export default Nav;
-/* write by Giang
+/*export default Nav;
+write by Giang
 export default function NavBar(props) {
   // render tab title
   const renderTabTitle = () => {
