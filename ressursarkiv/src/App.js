@@ -8,7 +8,7 @@ import { Html } from "./pages/Html";
 import { Css } from "./pages/Css";
 import { Javascript } from "./pages/Javascript";
 import { React } from "./pages/React";
-import { Sanity } from "./pages/Sanity";
+import { Sanity } from "./pages/Headless_cms";
 import { Nav } from "./components/Nav";
 
 
@@ -26,7 +26,7 @@ function App() {
     <Route path="/css" element={<Css />} />
     <Route path="/javascript" element={<Javascript />} />
     <Route path="/react" element={<React />} />
-    <Route path="/sanity" element={<Sanity />} />
+    <Route path="/headless_cms" element={<Headless_cms />} />
     </Routes>
     </Router>
     </div> 
