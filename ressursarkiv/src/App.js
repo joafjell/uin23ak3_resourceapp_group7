@@ -3,12 +3,13 @@ import { Route, Routes } from 'react-router-dom';
 import Layout from './components/Layout';
 import './css/main.css';
 import { BrowserRouter as Router, Routes, Route, Link} from "react-router-dom";
-import { Html } from ".components/Html";
-import { Css } from ".components/Css";
-import { Javascript } from ".components/Javascript";
-import { React } from ".components/React";
-import { Sanity } from ".components/Sanity";
-import { Nav } from "./components/Nav";
+import { Home } from ".pages/Home"; 
+import { Html } from ".pages/Html";
+import { Css } from ".pages/Css";
+import { Javascript } from ".pages/Javascript";
+import { React } from ".pages/React";
+import { Sanity } from ".pages/Sanity";
+import { Nav } from "./pages/Nav";
 
 
 
@@ -20,7 +21,7 @@ function App() {
     <Router>
     <Nav />
     <Routes>
-    /*<Route path="/" element={<Home />} />*/
+    <Route path="/" element={<Home />} />
     <Route path="/html" element={<Html />} />
     <Route path="/css" element={<Css />} />
     <Route path="/javascript" element={<Javascript />} />
