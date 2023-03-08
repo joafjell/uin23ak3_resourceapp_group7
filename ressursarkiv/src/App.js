@@ -9,7 +9,7 @@ import { Css } from ".pages/Css";
 import { Javascript } from ".pages/Javascript";
 import { React } from ".pages/React";
 import { Sanity } from ".pages/Sanity";
-import { Nav } from "./pages/Nav";
+import { Nav } from "./components/Nav";
 
 
 
