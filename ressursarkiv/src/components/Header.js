@@ -1,7 +1,5 @@
-import { Link } from "react-router-dom";
+import React from "react";
 
 export default function Header() {
-    return(
-        <h1>Ressursarkiv</h1>
-    );
+  return <h1>RESURSARKIV</h1>;
 }
