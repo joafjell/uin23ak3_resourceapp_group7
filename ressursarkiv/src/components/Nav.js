@@ -7,9 +7,9 @@ export default function Nav(){
 
 }
   
-  /*return (
+  return (
         <div>
-        /*<Link to="/"> Home </Link>
+        <Link to="/"> Home </Link>
         <Link to="/html"> HTML </Link>
         <Link to="/css"> CSS </Link>
         <Link to="/javascript"> Javascript </Link>
