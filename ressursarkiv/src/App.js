@@ -2,33 +2,13 @@ import logo from './logo.svg';
 import './App.css';
 import Main from './components/Main';
 import Header from './components/Header';
-import Information from './components/Information';
-import { Route, Routes } from 'react-router-dom';
-import { useState } from 'react';
-import Layout from './components/Layout';
-import Test from './components/Test';
-import Test2 from './components/Test2';
-w
-function App() {
-
-    return(
-        <>
-            <Nav />
-            <Routes>
-                <Route index path="/html" element={<Html/>} />
-                <Route index path="/css" element={<Css />} />
-            </Routes>
-        </>
-        
-      
-      
-    )
-    
-}
+import { useState } from "react";
+import Nav from './components/Nav';
 
 
 
-/*const resources = [
+
+const resources = [
   {
       title: "W3Schools",
       url: "https://www.w3schools.com/html/",
@@ -104,33 +84,30 @@ function App() {
       url: "https://www.section.io/engineering-education/getting-started-with-sanity-cms/",
       category: "headless-cms"
   }
-];/*
+];
 
 
 
-/*function App(props) {
-  const [currentTitleState, setCurrentTitleState] = useState("html");
-  return (
-    
-    <div className="body">
-      {/* <Tabs_UI /> }*/
-     /*<Header />
-      <main id="main_content">
-        <NavBar
-          resources={resources}
-          currentTitle={currentTitleState}
-          setCurrentTitle={setCurrentTitleState}
-        />  
-        <hr />
-        <Main
-          resources={resources}
-          currentTitle={currentTitleState}
-          setCurrentTitle={setCurrentTitleState}
-        />
-      </main>
-    </div>
-  );
-}*/
->>>>>>> a4a7bf779bff8db2c9bd3e17318896adc8a08b2b
-
+function App() {
+    const [currentTitleState, setCurrentTitleState] = useState("html");
+    return (
+      <div className="body">
+        {/* <Tabs_UI /> */}
+        <Header />
+        <main id="main_content">
+          <Nav
+            resources={resources}
+            currentTitle={currentTitleState}
+            setCurrentTitle={setCurrentTitleState}
+          />
+          <hr />
+          <Main
+            resources={resources}
+            currentTitle={currentTitleState}
+            setCurrentTitle={setCurrentTitleState}
+          />
+        </main>
+      </div>
+    );
+  }
 export default App;

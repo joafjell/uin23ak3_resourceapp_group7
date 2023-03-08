@@ -3,9 +3,9 @@ import { Link } from 'react-router-dom';
 //import Information from './Information';
 import resources from './Ressurser';
 
-export default function Nav(){
+/*export default function Nav(){
 
-}
+
   
   return (
         <div>
@@ -19,13 +19,13 @@ export default function Nav(){
         
         
         
-        );
-};*/
+        );}
 
 
-/*export default Nav;
-write by Giang
-export default function NavBar(props) {
+
+export default Nav;
+write by Giang*/
+export default function Nav(props) {
   // render tab title
   const renderTabTitle = () => {
     const titleArr = props.resources.reduce((acc, current) => {
@@ -55,4 +55,4 @@ export default function NavBar(props) {
   };
   return <section id="title">{renderTabTitle()}</section>;
 }
- */
+
