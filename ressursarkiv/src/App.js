@@ -3,6 +3,7 @@ import Main from './components/Main';
 import Header from './components/Header';
 import { useState } from "react";
 import Nav from './components/Nav';
+import './css/main.css'
 
 
 
