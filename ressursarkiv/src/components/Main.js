@@ -1,31 +1,50 @@
+import { Link } from 'react-router-dom';
+import resources from '../Ressurser/resources';
+import Nav from './Nav';
 
-//write by Giang
-export default function MainContent(props) {
-  const { resources, currentTitle } = props;
-
-  // render inhold hver tabs
-  const renderTabDetail = () => {
-    const filterArr = resources.filter((item) => {
-      return item.category.toUpperCase() === currentTitle.toUpperCase();
-    });
-
-    return filterArr.map((item, index) => {
-      return (
-        <a key={index} target="_blank" href={item.url}>
-          {item.title}
-        </a>
-      );
-    });
-  };
-
+export default function Main() {
   return (
-    <section id="content">
-      <h3>{currentTitle.toUpperCase()}</h3>
+    <div id="container">
+      <header>
+        <h1>RESSURSAKIV</h1>
+      </header>
+      <main>
+        {resources.map((resourc) => (
+            <Link to={resourc.title}>
+                <Nav title={resourc.title} /> 
+            </Link>
+        ))}
+      </main>
+      <footer>
 
-      <div id="link">{renderTabDetail()}</div>
-    </section>
+      </footer>
+    </div>
   );
-}
+//   const { resources, currentTitle } = props;
+
+//   // render inhold hver tabs
+//   const renderTabDetail = () => {
+//     const filterArr = resources.filter((item) => {
+//       return item.category.toUpperCase() === currentTitle.toUpperCase();
+//     });
+
+//     return filterArr.map((item, index) => {
+//       return (
+//         <a key={index} target="_blank" href={item.url}>
+//           {item.title}
+//         </a>
+//       );
+//     });
+//   };
+
+//   return (
+//     <section id="content">
+//       <h3>{currentTitle.toUpperCase()}</h3>
+
+//       <div id="link">{renderTabDetail()}</div>
+//     </section>
+//   );
+ }
 
 /*export default function Main(){
     return (
