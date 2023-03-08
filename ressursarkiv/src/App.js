@@ -8,7 +8,7 @@ import { Html } from "./pages/Html";
 import { Css } from "./pages/Css";
 import { Javascript } from "./pages/Javascript";
 import { React } from "./pages/React";
-import { Sanity } from "./pages/Headless_cms";
+import { Headless_cms } from "./pages/Headless_cms";
 import { Nav } from "./components/Nav";
 
 
