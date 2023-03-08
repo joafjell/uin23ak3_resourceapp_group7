@@ -94,7 +94,7 @@ function App(props) {
           resources={resources}
           currentTitle={currentTitleState}
           setCurrentTitle={setCurrentTitleState}
-        />
+        />  
         <hr />
         <Main
           resources={resources}

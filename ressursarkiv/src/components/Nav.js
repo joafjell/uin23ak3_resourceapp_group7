@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 export default function Nav(){
     return (
         <div>
@@ -15,8 +17,8 @@ export default function Nav(){
         )
 }
 
-export default Nav;
-/* write by Giang
+/*export default Nav;
+ write by Giang
 export default function NavBar(props) {
   // render tab title
   const renderTabTitle = () => {
