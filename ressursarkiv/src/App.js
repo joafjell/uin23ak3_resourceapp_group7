@@ -41,9 +41,9 @@ function App() {
         
         
         
-        <Routes>
+     /*   <Routes>
             <Layout/>       
-        </Routes>
+        </Routes>*/
     );
 }
 
