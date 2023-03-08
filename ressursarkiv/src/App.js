@@ -8,7 +8,7 @@ import { Css } from ".components/Css";
 import { Javascript } from ".components/Javascript";
 import { React } from ".components/React";
 import { Sanity } from ".components/Sanity";
-import { Navbarr } from "./components/Nav";
+import { Nav } from "./components/Nav";
 
 
 
