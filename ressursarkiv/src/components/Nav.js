@@ -4,21 +4,8 @@ import { Link } from 'react-router-dom';
 import resources from './Ressurser';
 
 export default function Nav(){
-  const list = []
-  resources.forEach(item => list.push(item.category))
-  const filterList = [...new Set(list)]
-  return (
-    <nav>
-      <ul className="uin-informasjon">
-       {filterList.map((item, index) => (
-        <li id={index} key={index}>
-          <Link to={`/${item}`}>{item}</Link>
-        </li>
-        ))}
-      </ul>
-      </nav> 
-      );  
-    }
+
+}
   
   /*return (
         <div>
