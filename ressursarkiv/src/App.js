@@ -3,8 +3,8 @@ import { Route, Routes } from 'react-router-dom';
 import Layout from './components/Layout';
 import './css/main.css';
 import { BrowserRouter as Router, Routes, Route, Link} from "react-router-dom";
-import { HTML } from ".components/HTML";
-import { CSS } from ".components/CSS";
+import { Html } from ".components/Html";
+import { Css } from ".components/Css";
 import { Javascript } from ".components/Javascript";
 import { React } from ".components/React";
 import { Sanity } from ".components/Sanity";
@@ -21,8 +21,8 @@ function App() {
     <Navbarr />
     <Routes>
     /*<Route path="/" element={<Home />} />*/
-    <Route path="/html" element={<HTML />} />
-    <Route path="/css" element={<CSS />} />
+    <Route path="/html" element={<Html />} />
+    <Route path="/css" element={<Css />} />
     <Route path="/javascript" element={<Javascript />} />
     <Route path="/react" element={<React />} />
     <Route path="/sanity" element={<Sanity />} />
