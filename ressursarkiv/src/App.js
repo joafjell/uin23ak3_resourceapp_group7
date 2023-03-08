@@ -3,12 +3,12 @@ import './App.css';
 import Layout from './components/Layout';
 import './css/main.css';
 import { BrowserRouter as Router, Routes, Route, Link} from "react-router-dom";
-import { Home } from ".pages/Home"; 
-import { Html } from ".pages/Html";
-import { Css } from ".pages/Css";
-import { Javascript } from ".pages/Javascript";
-import { React } from ".pages/React";
-import { Sanity } from ".pages/Sanity";
+import { Home } from "./pages/Home"; 
+import { Html } from "./pages/Html";
+import { Css } from "./pages/Css";
+import { Javascript } from "./pages/Javascript";
+import { React } from "./pages/React";
+import { Sanity } from "./pages/Sanity";
 import { Nav } from "./components/Nav";
 
 
