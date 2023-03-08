@@ -14,7 +14,7 @@ export default function Nav(){
         <Link to="/css"> CSS </Link>
         <Link to="/javascript"> Javascript </Link>
         <Link to="/react"> React </Link>
-        <Link to="/sanity"> Sanity </Link>
+        <Link to="/headless_cms"> Headless_cms </Link>
         </div>
         
         
