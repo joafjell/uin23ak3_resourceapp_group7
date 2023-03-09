@@ -1,3 +1,4 @@
+
 * {
     margin: 0;
     padding: 0;
@@ -48,27 +49,25 @@
   
   #content {
     padding: 12px 8px;
-  }
+    
+    h3 {
+        font-size: 24px;
+        font-weight: 600;
+      }
+       p {
+        font-size: 18px;
+        padding: 12px 12px;
+      }
+      link {
+        font-size: 18px;
+        margin-top: 12px;
+      }
+      link a {
+        display: block;
+        padding: 6px 0;
+      }
+    }
   
-  #content h3 {
-    font-size: 24px;
-    font-weight: 600;
-  }
-  
-  #content p {
-    font-size: 18px;
-    padding: 12px 12px;
-  }
-  
-  #content #link {
-    font-size: 18px;
-    margin-top: 12px;
-  }
-  
-  #content #link a {
-    display: block;
-    padding: 6px 0;
-  }
   
   /* Large table 1024px */
   @media (max-width: 1024px) {
