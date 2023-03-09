@@ -1,51 +1,36 @@
 import './App.css';
-/*import { Route, Routes } from 'react-router-dom';*/
-import Layout from './components/Layout';
+import Main from './components/Main';
+import Header from './components/Header';
+import { useState } from "react";
+import Nav from './components/Nav';
 import './css/main.css';
-import { BrowserRouter as Router, Routes, Route, Link} from "react-router-dom";
-import { Home } from "./pages/Home"; 
-import { Html } from "./pages/Html";
-import { Css } from "./pages/Css";
-import { Javascript } from "./pages/Javascript";
-import { React } from "./pages/React";
-import { Headless_cms } from "./pages/Headless_cms";
-import { Nav } from "./components/Nav";
-
-
+import resources from './components/Ressurser';
+import Layout from './components/Layout';
 
 
 function App() {
-    return(
-        
-           <div className="navigation">
-    <Router>
-    <Nav />
-    <Routes>
-    <Route path="/" element={<Home />} />
-    <Route path="/html" element={<Html />} />
-    <Route path="/css" element={<Css />} />
-    <Route path="/javascript" element={<Javascript />} />
-    <Route path="/react" element={<React />} />
-    <Route path="/headless_cms" element={<Headless_cms />} />
-    </Routes>
-    </Router>
-    </div> 
-    
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-     /*   <Routes>
-            <Layout/>       
-        </Routes>*/
+    <Layout>
+        <Routing />
+    </Layout>
+    const [currentTitleState, setCurrentTitleState] = useState("html");
+    return (
+      <div className="body">
+        {/* <Tabs_UI /> */}
+        <Header />
+        <main id="main_content">
+          <Nav
+            resources={resources}
+            currentTitle={currentTitleState}
+            setCurrentTitle={setCurrentTitleState}
+          />
+          <hr />
+          <Main
+            resources={resources}
+            currentTitle={currentTitleState}
+            setCurrentTitle={setCurrentTitleState}
+          />
+        </main>
+      </div>
     );
-}
-
+  }
 export default App;
