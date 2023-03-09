@@ -1,28 +1,4 @@
-//import resources from Ressurser.js
-import { Link } from 'react-router-dom';
-//import Information from './Information';
-import resources from './Ressurser';
 
-/*export default function Nav(){
-
-}*/
-  
-  /*return (
-        <div>
-        <Link to="/"> Home </Link>
-        <Link to="/html"> HTML </Link>
-        <Link to="/css"> CSS </Link>
-        <Link to="/javascript"> Javascript </Link>
-        <Link to="/react"> React </Link>
-        <Link to="/sanity"> Sanity </Link>
-        </div>
-        
-        
-        
-        );*/
-
-
-//write by Giang
 export default function Nav(props) {
   // render tab title
   const renderTabTitle = () => {
@@ -53,4 +29,27 @@ export default function Nav(props) {
   };
   return <section id="title">{renderTabTitle()}</section>;
 }
+/*import resources from Ressurser.js
+import { Link } from 'react-router-dom';
+//import Information from './Information';
+import resources from './Ressurser';
+
+/*export default function Nav(){
+
+}*/
+  
+  /*return (
+        <div>
+        <Link to="/"> Home </Link>
+        <Link to="/html"> HTML </Link>
+        <Link to="/css"> CSS </Link>
+        <Link to="/javascript"> Javascript </Link>
+        <Link to="/react"> React </Link>
+        <Link to="/sanity"> Sanity </Link>
+        </div>
+        
+        
+        
+        );*/
+
 
