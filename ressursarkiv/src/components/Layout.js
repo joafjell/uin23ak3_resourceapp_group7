@@ -7,7 +7,7 @@ export default function Layout({children}){
     return(
         <div id="container">
             <header>  
-                
+                <Header/>
             </header>
             <nav>
                 <Nav/>
