@@ -1,6 +1,6 @@
 import React from "react";
 
-export default function MainContent(props) {
+export default function Main(props) {
   const { resources, currentTitle } = props;
 
   // render inhoild hver tabs

@@ -1,7 +1,9 @@
 import { Link, Outlet } from "react-router-dom";
 import Header from "./Header";
+import Main from "./Main";
+import Nav from "./Nav";
 
-export default function Layout(){
+export default function Layout({children}){
     return(
         <div id="container">
             <header>  
@@ -9,8 +11,12 @@ export default function Layout(){
                     <Header />
                 </Link>
             </header>
+            <nav>
+                <Nav/>
+            </nav>
             <main>
-                <Outlet/>
+                <Main/>
+                {children}
             </main>
             <footer>
 
