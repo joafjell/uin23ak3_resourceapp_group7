@@ -43,7 +43,7 @@
 
 #content {
   padding: 12px 8px;
-  border-style: groove;
+  border: 1px solid #000;
 }
 
 #content h3 {
