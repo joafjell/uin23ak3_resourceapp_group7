@@ -10,7 +10,7 @@ import Layout from './components/Layout';
 
 function App() {
     <Layout>
-        <Routing />
+        
     </Layout>
     const [currentTitleState, setCurrentTitleState] = useState("html");
     return (
